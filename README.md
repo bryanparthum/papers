@@ -1,2 +1,1 @@
-# papers
-Published and Working Papers by Bryan Parthum
+A repository of published and working papers by Bryan Parthum

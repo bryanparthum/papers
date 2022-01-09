@@ -1,0 +1,106 @@
+---
+title: "A Recreation Demand Model for Mountain Snowpack"
+# subtitle: "<html><div style='float:left'></div><hr color='#5171A5' size=1px width=720px></html>"
+author:
+  - Bryan Parthum
+  - U.S. EPA, National Center for Environmental Economics
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  xaringan::moon_reader:
+    css: ["slide_files/remark-css/default.css", "slide_files/remark-css/epa.css", "slide_files/remark-css/epa-fonts.css"]
+    nature:
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+    seal: false
+header-includes:
+  \usepackage{amsfonts}
+  
+---
+
+class: title-slide center
+
+background-image: url(slide_files/EPA_seal.png), url(slide_files/NCEE_seal.png)
+background-position: 65% 90%, 91% 88%
+background-size: 10%, 20%
+
+<br>
+<br>
+<h1>Beyond Nitrates: N to N<sub>2</sub>O and other Greenhouse Gases</h1>
+<html><div style='float:left'></div><hr size=1px width=720px></html>
+<br>
+<br>
+<h2>Bryan Parthum <br> U.S. EPA, National Center for Environmental Economics <br> `r format(Sys.time(), '%B %d, %Y')`</h2>
+
+<br>
+.left[<sup><sub><sup>The views expressed during this presentation are those of the <br> presenter and do not necessarily represent those of the U.S. EPA.</sup></sub></sup>]
+
+---
+
+class: remark-slide
+
+<h1>Additional missing or unaccounted for benefits</h1>
+
+<h2>Nutrient management BCAs typically focus on water-related benefits</h2>
+
+  - These are often direct, observable, and realized in the short-run (this century)
+      - e.g., nonmarket: recreation and captured in housing prices; or market-based, comercial fishing, water treatment costs, etc.)
+  
+  - However, there are secondary effects of excess nutrient concentrations (eutrophication) that can generate large social costs
+  
+  - Nutrients in <span style="color:#004fb9">surface waters</span> *at any concentration* can lead to off-gassing and contribute to greenhouse gas concentrations in the atmosphere (approx. 1% to 10%)</h2>
+
+  - Greenhouse gases have large, <span style="color:#01c748">*global*</span> consequences
+  
+<!-- <span style="color:#01c748"><bf>marginal willingness to pay</bf></span> -->
+<!-- <span style="color:#004fb9">snow</span>  -->
+
+---
+
+<h1>Water pollution to air pollution and its valuation</h1>
+
+  - [van Grinsven et al. (2013)](https://pubs.acs.org/doi/abs/10.1021/es303804g), [Sobota et al (2015)](https://iopscience.iop.org/article/10.1088/1748-9326/10/2/025006/meta)
+  
+.center[<img src="slide_files/images/sobota2015.jpg" style="width: 50%" />]
+
+  - $13.52 (&#36;5.15, &#36;21.89) per Kg of N released 
+  
+  - [Downing et al. (2021)](https://www.nature.com/articles/s41467-021-22836-3) did something similar with Methane (CH<sub>4</sub>), estimating &#36;7.5 to &#36;81 trillion in global climate-related damages from human nutrient enrichment 
+
+
+---
+
+<h1>Linking nutrient management policies to SC-GHGs</h1>
+
+A Case Study of the Total Maximum Daily Loads in the Chesapeake Bay Watershed
+  - Jake Beaulieu, Elizabeth Kopits, Chris Moore, Bryan Parthum
+  
+<img src="slide_files/images/scn2o.png" style="width: 32%" /> <img src="slide_files/images/scco2.png" style="width: 32%" /><img src="slide_files/images/scch4.png" style="width: 32%" />
+
+  - Early estimates of &#36;8 to &#36;32 million per year in climate benefits from the TMDL (2010)
+
+---
+
+class: title-slide center
+
+background-image: url(slide_files/EPA_seal.png), url(slide_files/NCEE_seal.png)
+background-position: 35% 95%, 61% 93%
+background-size: 10%, 20%
+
+.pull-60[
+.font140[
+<b>Thank you!</b>
+<html><div class="center"></div><hr size=1px></html>
+
+Questions?
+]
+]
+.font120[Bryan Parthum]
+
+<a href="mailto:parthum.bryan@epa.gov"><img src="slide_files/email.png" width="50" height="50"></a>
+<a href="http://www.twitter.com/BryanParthum"><img src="slide_files/twitter.png" width="50" height="50"></a>
+<a href="http://www.github.com/BryanParthum"><img src="slide_files/github.png" width="50" height="50"></a>
+<a href="https://scholar.google.com/citations?user=H32uC_sAAAAJ&hl=en"><img src="slide_files/google_scholar.png" width="50" height="50"></a>
+<a href="https://bryanparthum.github.io/papers/Parthum_Vitae.pdf"><img src="slide_files/vitae.png" width="50" height="50"></a>
